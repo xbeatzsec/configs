@@ -1,0 +1,31 @@
+[global_config]
+  window_state = fullscreen
+  borderless = True
+  title_font = Ubuntu 30
+[keybindings]
+  split_horiz = <Primary><Shift>Down
+  split_vert = <Primary><Shift>Right
+  page_up = <Shift>Up
+  page_down = <Shift>Down
+  resize_down = <Primary><Shift>o
+  resize_right = <Primary><Shift>e
+[profiles]
+  [[default]]
+    icon_bell = False
+    background_darkness = 0.88
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = CaskaydiaCove Nerd Font 14
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollback_infinite = True
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
